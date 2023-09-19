@@ -139,10 +139,12 @@ theme.set_highlights = function()
   hl(0, "GitSignsChange", { fg = c.sign_change, bg = 'NONE' })
   hl(0, "GitSignsDelete", { fg = c.sign_delete, bg = 'NONE' })
   hl(0, "GitSignsChangedelete", { fg = c.sign_change, bg = 'NONE' })
+  hl(0, "GitSignsCurrentLineBlame", { fg = c.dark_cyan, bg = 'NONE' })
   hl(0, "GitGutterAdd", { fg = c.sign_add, bg = 'NONE' })
   hl(0, "GitGutterChange", { fg = c.sign_change, bg = 'NONE' })
   hl(0, "GitGutterDelete", { fg = c.sign_delete, bg = 'NONE' })
   hl(0, "GitGutterChangeDelete", { fg = c.sign_change, bg = 'NONE' })
+
 
   -- LSP
   hl(0, "DiagnosticError", { link = 'Error' })
