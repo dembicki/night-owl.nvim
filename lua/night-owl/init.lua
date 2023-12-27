@@ -13,6 +13,8 @@ M.setup = function()
   vim.g.colors_name = 'night-owl'
 
   theme.set_highlights()
+  -- Set background transparency
+  vim.cmd('hi Normal guibg=NONE ctermbg=NONE')
 end
 
 return M
